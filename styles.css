@@ -92,7 +92,14 @@ html, body {
   gap: 8px;
 }
 
-.icon-wifi, .icon-battery { fill: var(--text-primary); color: var(--text-primary); }
+.icon-wifi, .icon-battery {
+  fill: var(--text-primary);
+  color: var(--text-primary);
+  display: block;
+}
+
+.icon-wifi { width: 18px; height: 13px; }
+.icon-battery { width: 24px; height: 12px; }
 
 /* ---------- Barra superior NonnoIA ---------- */
 
