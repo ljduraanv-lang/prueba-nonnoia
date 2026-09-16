@@ -28,6 +28,10 @@
 
 * { box-sizing: border-box; }
 
+[hidden] {
+  display: none !important;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -154,10 +158,6 @@ html, body {
   min-height: 0;
   padding: 8px 22px 22px;
   animation: screen-in 0.25s ease;
-}
-
-.screen[hidden] {
-  display: none !important;
 }
 
 @keyframes screen-in {
@@ -379,6 +379,7 @@ html, body {
   left: 22px;
   right: 22px;
   bottom: 22px;
+  width: auto;
 }
 
 .btn--faq {
